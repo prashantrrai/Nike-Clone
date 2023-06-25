@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Fasthand&family=Noto+Sans+Vai&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia&display=swap');
+
+:root{
+    --red: #d01c28;
+    --gray: #2e2e2e;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 72px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+button{
+    all: unset;
+    padding: 6px 16px;
+    background: var(--red);
+    height: 32px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid var(--gray);
+    color: black;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 72px);
+    padding-left: 100px;
+}
+.bannerContent{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.banner h1{
+    font-weight: 800;
+    line-height: 80px;
+    font-size: 80px;
+}
+.banner p{
+    font-weight: 600;
+    color: var(--gray); 
+    max-width: 400px;
+    font-size: 13px;
+}
+.Button{
+    display: flex;
+    gap: 30px;
+    font-size: 15px;
+}
+.categoryBtn{
+    background: transparent;
+    color: var(--gray);
+    border: 1px solid gray;
+}
+.shopping p{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.ecomLogo{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    * {
+        box-sizing: border-box;
+      }
+      .app {
+        overflow-x: hidden;
+      }
+      
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1280px;
+        margin: 0 auto;
+        height: 72px;
+        padding: 0 20px;
+      }
+      
+      .nav ul {
+        display: flex;
+        list-style: none;
+        gap: 24px;
+      }
+      
+      button {
+        all: unset;
+        padding: 6px 16px;
+        background: var(--red);
+        height: 32px;
+        color: white;
+        font-weight: 500;
+        border-radius: 5px;
+      }
+      
+      button:hover {
+        cursor: pointer;
+        background: transparent;
+        border: 1px solid var(--gray);
+        color: black;
+      }
+      
+      .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .bannerContent {
+        margin-top: 10%;
+        gap: 25px;
+      }
+      
+      .banner h1 {
+        font-weight: 800;
+        line-height: 80px;
+        font-size: 40px;
+      }
+      
+      .banner p {
+        font-weight: 600;
+        color: var(--gray);
+        max-width: 400px;
+        font-size: 13px;
+      }
+      
+      .buttonContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      
+      .categoryBtn {
+        background: transparent;
+        color: var(--gray);
+        border: 1px solid gray;
+      }
+      
+      .shopping p {
+        font-size: 14px;
+        margin-bottom: 8px;
+      }
+      
+      .ecomLogo {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 20px;
+      }
+      
+      .bannerImage {
+        margin-top: 20px;
+        display: flex;
+      }
+      .bannerImage img{
+        width: 100%;
+        height: 100%;
+      }
+}
