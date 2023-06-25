@@ -4,7 +4,7 @@ function Nav() {
   return (
     <nav className="container nav">
       <div className="logo">
-        <img src="/public/Images/brand_logo.png" alt="nike-logo" />
+        <img src="/Images/brand_logo.png" alt="nike-logo" />
       </div>
       <ul>
         <li href="#">Menu</li>
