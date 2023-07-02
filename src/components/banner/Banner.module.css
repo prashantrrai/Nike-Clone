@@ -1,0 +1,43 @@
+
+.banner{
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 72px);
+    padding-left: 100px;
+}
+.bannerContent{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.banner h1{
+    font-weight: 800;
+    line-height: 80px;
+    font-size: 80px;
+}
+.banner p{
+    font-weight: 600;
+    color: var(--gray); 
+    max-width: 400px;
+    font-size: 13px;
+}
+.Button{
+    display: flex;
+    gap: 30px;
+    font-size: 15px;
+}
+.categoryBtn{
+    background: transparent;
+    color: var(--gray);
+    border: 1px solid gray;
+}
+.shopping p{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.ecomLogo{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+}

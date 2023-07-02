@@ -1,6 +1,8 @@
+import styles from "./Banner.module.css";
+
 function Banner() {
   return (
-    <main className="banner container">
+    <main className={`banner container ${styles.Banner}`}>
       <div className="bannerContent">
         <h1>YOUR <br></br>FEET DESERVE<br></br> THE BEST</h1>
         <p>YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR SHOES.YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR SHOES.</p>
