@@ -12,14 +12,16 @@ To clone and use this project, follow these steps:
    git clone https://github.com/prashantrrai/Nike-Clone.git
   ```
 
-   ```bash
-  cd Nike-Clone
+2. **Navigate to the Project Directory:**
+  ```bash
+   cd Nike-Clone
   ```
 
+3. **Install Dependencies:**
   ```bash
   npm install
   ```
-
+4. **Run the Development Server:**
   ```bash
   npm start
   ```
