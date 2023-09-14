@@ -10,9 +10,10 @@ To clone and use this project, follow these steps:
 
    ```bash
    git clone https://github.com/prashantrrai/Nike-Clone.git
-  ```
+  
 
 2. **Navigate to the Project Directory:**
+
   ```bash
    cd Nike-Clone
   ```
